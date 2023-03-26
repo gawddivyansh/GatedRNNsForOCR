@@ -1,0 +1,13 @@
+This is a pytorch implementation of [Gated Recurrent Convolution Neural Network for OCR]
+
+Requirements :
+1. Pytorch >= 1.0 
+2. opencv
+3. warp_ctc_pytorch(https://github.com/SeanNaren/warp-ctc)
+4. tqdm
+
+
+To train and save the model, download the dataset and change the path of train and validation data folder in train.py accordingly.
+
+To test and save the model, download the dataset and change the path of test data folder in test.py accordingly.
+
